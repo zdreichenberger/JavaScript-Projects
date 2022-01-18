@@ -5,18 +5,25 @@
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 
 #totalPrice {
     width: 200px;
     height: 190px;
-    margin: 0 auto;
+    margin: 20px auto;
     float: right;
 }
 
 .left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+/* Style new veggie list */
+
+.center {
     width: 200px;
     height: 200px;
     float: left;
@@ -44,7 +51,9 @@
 #btnOrder {
     margin:10px 0px 0px 100px;
     width: 100px;
-    height: 40px
+    height: 40px;
+    display: block;
+    margin: 25px auto;
 }
 
 /* background color */
@@ -56,6 +65,7 @@ h1 {
     font-family:fantasy;
     -webkit-text-stroke: 1px black; /* sets font border */
     color:honeydew;
+    text-align: center;
 }
 
 h3 {
